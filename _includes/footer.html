@@ -1,0 +1,18 @@
+<span>&copy; {{ site.time | date: '%Y' }} {{ site.owner.name }}.</span>
+<div class="social-icons">
+	{% if site.owner.twitter %}<a href="http://twitter.com/{{ site.owner.twitter }}" title="{{ site.owner.name}} on Twitter" target="_blank"><i class="icon-twitter icon-2x"></i></a>{% endif %}
+	<!--{% if site.owner.facebook %}<a href="http://facebook.com/{{ site.owner.facebook }}" title="{{ site.owner.name}} on Facebook" target="_blank"><i class="icon-facebook icon-2x"></i></a>{% endif %}-->
+	{% if site.owner.google_plus %}<a href="{{ site.owner.google_plus }}" title="{{ site.owner.name}} on Google+" target="_blank"><i class="icon-google-plus icon-2x"></i></a>{% endif %}
+	{% if site.owner.linkedin %}<a href="http://linkedin.com/in/{{ site.owner.linkedin }}" title="{{ site.owner.name}} on LinkedIn" target="_blank"><i class="icon-linkedin icon-2x"></i></a>{% endif %}
+	{% if site.owner.stackexchange %}<a href="{{ site.owner.stackexchange }}" title="{{ site.owner.name}} on StackExchange" target="_blank"><i class="icon-stackexchange icon-2x"></i></a>{% endif %}
+	{% if site.owner.instagram %}<a href="http://instagram.com/{{ site.owner.instagram }}" title="{{ site.owner.name}} on Instagram" target="_blank"><i class="icon-instagram icon-2x"></i></a>{% endif %}
+	{% if site.owner.flickr %}<a href="http://www.flickr.com/photos/{{ site.owner.flickr }}" title="{{ site.owner.name}} on Flickr" target="_blank"><i class="icon-flickr icon-2x"></i></a>{% endif %}
+	{% if site.owner.github %}<a href="http://github.com/{{ site.owner.github }}" title="{{ site.owner.name}} on Github" target="_blank"><i class="icon-github icon-2x"></i></a>{% endif %}
+	{% if site.owner.tumblr %}<a href="http://{{ site.owner.tumblr }}.tumblr.com" title="{{ site.owner.name}} on Tumblr" target="_blank"><i class="icon-tumblr icon-2x"></i></a>{% endif %}
+	<a href="https://www.facebook.com/HaddonCommunityLearningCentre" title="Find Us On Facebook" target="_blank"><img class="icon-default icon-2x" src="{{ site.url }}/images/fb_logo.png"/></a>
+	<a href="http://www.anhlc.asn.au/" title="Association Of Neighbourhood Houses and Learning Centres" target="_blank"><img class="icon-default icon-2x" src="{{ site.url }}/images/anhlc_logo.png"/></a>
+	<a href="http://www.learnlocal.org.au/" title="Learn Local" target="_blank"><img class="icon-default icon-2x" src="{{ site.url }}/images/learnlocal_logo.png"/></a>
+	<a href="http://www.vic.gov.au/" title="Victorian Government" target="_blank"><img class="icon-default icon-2x" src="{{ site.url }}/images/vicgov.jpg"/></a>
+	<a href="http://www.learnlocal.org.au/" title="Learn Local Award 2013" target="_blank"><img class="icon-default icon-2x" src="{{ site.url }}/images/award.png"/></a>
+</div><!-- /.social-icons -->
+<span><a href="http://jmilne.com.au" title="jm | Design" target="_blank"><img class="icon-default icon-4x" src="{{ site.url }}/images/jmdesign.png"/></a></span>

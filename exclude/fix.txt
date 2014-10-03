@@ -1,0 +1,12 @@
+Haddon:
+
+First load: 11sec
+Second load: 4sec
+
+More than 3sec is unacceptable.
+
+Shift all assets to CDN
+Remove external dependencies
+Compress all images
+- http://pngquant.org/
+- https://github.com/tjko/jpegoptim

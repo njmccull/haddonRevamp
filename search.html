@@ -1,0 +1,32 @@
+---
+layout: page
+title: Search
+description: "Homepage for the Haddon Community Learning Centre"
+tags: [Haddon, centre, learning, course, home, art, design, community, calendar, events, Jekyll, theme, themes, responsive, blog, minimalism]
+modified: 2014-09-13
+---
+
+<ul class="post-list">
+  <li>
+    <div id="search_results">
+    </div>
+    </li>
+  <li>
+    <input id="searchterm"/>
+    <a id="reflectedlink" href="{{ site.url }}{{ page.url }}"><i class="icon-search"></i></a>
+<script type="text/javascript">
+    var link= document.getElementById('reflectedlink');
+    var input= document.getElementById('searchterm');
+    input.onchange=input.onkeyup= function() {
+        link.search= '?query='+encodeURIComponent(input.value);
+        link.firstChild.data= link.href;
+        link.innerHtml = "Go";
+    };
+</script>
+  </li>
+    <script src="{{ site.assets }}/js/vendor/jquery-1.9.1.min.js"></script>
+    <script src="{{ site.assets }}/js/vendor/jquery-tapir.min.js"></script>
+    <script>
+      $('#search_results').tapir({'token': '54095186d88cc00200000000'});
+    </script>
+</ul>

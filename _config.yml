@@ -1,0 +1,97 @@
+title:            Haddon Community Learning Centre
+description:
+logo:             site-logo.png
+disqus_shortname:
+search:           false
+gsearch:          true
+rss:              true
+# Change url to your domain. Leave localhost server or blank when working locally.
+# You don't need to specify the protocol if you want it available on http and https. Example: //localhost:4000
+url:              //shakna-israel.github.com/haddonRevamp/
+date: 2014-08-22
+
+# Owner/author information
+owner:
+  name:           Haddon Community Learning Centre
+  avatar:         site-logo.png
+  email:          manager@haddonlearning.org.au
+  # Social networking links used in footer. Update and remove as you like.
+  facebook: //www.facebook.com/HaddonCommunityLearningCentre
+
+# Analytics and webmaster tools stuff goes here
+google_analytics:
+google_verify:
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify: DB178A2E2729150AD2FB760AB8017F12
+
+#Assets link
+assets: //cdn.rawgit.com/shakna-israel/haddonAssets/56300ba064ba216298c2f30b6aac72d99bd770f8/
+
+# Links to include in top navigation
+# For external links add external: true
+links:
+  - title: Home
+    url: /
+  - title: About Us
+    url: /about/
+  - title: Enrolments
+    url: /enrolment/
+  - title: Courses & Activities
+    url: /courses/
+  - title: News
+    url: /news/
+  - title: Room Hire
+    url: /hire/
+  - title: Advertising
+    url: /advertising/
+  - title: Contact Us
+    url: /contact/
+# An example external link:
+# - title: External Link
+#   url: http://awesomewebsite.com
+#   external: true
+
+acfe: docx\VET Student Enrolment Form Version 2014.docx
+
+#Contact Details
+phone_link: 0061353427050
+phone: (03) 5342 7050
+
+future:      true
+highlighter: false
+markdown:    kramdown
+
+gems:
+  - jekyll-sitemap
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title/
+
+# Sitemap Settings
+sitemap:
+    file: "/sitemap.xml"
+    exclude:
+        - "/atom.xml"
+        - "/feed.xml"
+        - "/feed/index.xml"
+    include_posts:
+        - "/index.html"
+    change_frequency_name: "change_frequency"
+    priority_name: "priority"
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+  coderay:
+    coderay_line_numbers:
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Gemfile", "Capfile", "LICENSE", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "vendor", "/_posts/examples"]

@@ -1,0 +1,22 @@
+<ul class="post-list">
+  <li><h1>Open Enrolments</h1></li>
+  {% for post in site.posts %}
+    <li><article>
+      <h2 class="post-title">
+        <a href="{{ site.url }}/{{ post.url }}">
+          {{ post.title }}
+        </a>
+      </h2>
+      <p>{{ post.content }}</p>
+    </article></li>
+    <li id="hidebullet"><a class="btn" href="{{ site.url }}/conditions/">Conditions of Enrolment</a></li>
+    <li id="hidebullet"><a class="btn" href="#ss-form">Enrol Now</a></li>
+    {% if post.acfe %}
+      <li id="hidebullet"><a class="btn" href="{{ site.assets }}/{{ site.acfe }}">ACFE Enrolment Form</a></li>
+    {% endif %}
+  {% endfor %}
+</ul>
+{% if post.acfe %}
+{% else %}
+{% include enrolmentform.html %}
+{% endif %}
