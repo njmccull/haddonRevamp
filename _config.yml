@@ -25,7 +25,7 @@ google_verify:
 bing_verify: DB178A2E2729150AD2FB760AB8017F12
 
 #Assets link
-assets: //cdn.rawgit.com/shakna-israel/haddonAssets/56300ba064ba216298c2f30b6aac72d99bd770f8/ 
+assets: //cdn.rawgit.com/shakna-israel/haddonAssets/851bcdc40a6243e74505c96f6eca0b193dcaf931/
 
 # Links to include in top navigation
 # For external links add external: true
