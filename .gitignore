@@ -2,3 +2,4 @@
 _site/
 assets/
 exclude/
+/**/compress.sh
