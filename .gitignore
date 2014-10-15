@@ -1,5 +1,4 @@
 .remote-sync.json
 _site/
-assets/
 exclude/
 /**/compress.sh

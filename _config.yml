@@ -16,7 +16,7 @@ owner:
   avatar:         site-logo.png
   email:          manager@haddonlearning.org.au
   # Social networking links used in footer. Update and remove as you like.
-  facebook: //www.facebook.com/HaddonCommunityLearningCentre
+  facebook: //facebook.com/HaddonCommunityLearningCentre
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:
@@ -25,7 +25,7 @@ google_verify:
 bing_verify: DB178A2E2729150AD2FB760AB8017F12
 
 #Assets link
-assets: //cdn.rawgit.com/shakna-israel/haddonAssets/00bc1ac7c5c03dd03c13494f8b67785cb0fb845a/
+assets: //shakna-israel.github.com/haddonRevamp/assets/
 
 # Links to include in top navigation
 # For external links add external: true
