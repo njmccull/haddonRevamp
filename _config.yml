@@ -25,7 +25,7 @@ google_verify:
 bing_verify: DB178A2E2729150AD2FB760AB8017F12
 
 #Assets link
-assets: //shakna-israel.github.io/haddonRevamp/assets/
+assets: /assets/
 
 # Links to include in top navigation
 # For external links add external: true
