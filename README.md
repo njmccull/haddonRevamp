@@ -165,10 +165,10 @@ slider: true
 Beneath this, add your images. You can have up to 20, but 3 is the recommendation.
 
 ```
-slide1_image: DSC00110.JPG
+slide1_image: DSC00110.jpg
 ```
 
-This will add the image with the filename "DSC00110.JPG" from "img" folder inside the "assets" folder.
+This will add the image with the filename "DSC00110.jpg" from "img" folder inside the "assets" folder.
 
 We can also add comments on top of the image:
 
@@ -180,11 +180,11 @@ Simply change the number when adding more images. For example, the homepage slid
 
 ```
 slider: true
-slide1_image: DSCF0048.JPG
+slide1_image: DSCF0048.jpg
 slide1_comment: Teaching
-slide2_image: DSCF1894.JPG
+slide2_image: DSCF1894.jpg
 slide2_comment: Learning
-slide3_image: Haidressing Day 2 043.JPG
+slide3_image: Haidressing Day 2 043.jpg
 slide3_comment: Training
 ```
 

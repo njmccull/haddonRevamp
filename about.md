@@ -5,8 +5,8 @@ title: About Us
 tags: [about, contact, map, learn, local, employer, learner, courses, haddon, community, services, environment, learnlocal, staff, friendly, assistance]
 modified: 2014-09-25
 slider: true
-slide1_image: DSCF0069.JPG
-slide2_image: DSCF2378.JPG
+slide1_image: DSCF0069.jpg
+slide2_image: DSCF2378.jpg
 slide3_image: SB_18790242.jpg
 ---
 
