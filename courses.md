@@ -8,7 +8,7 @@ modified: 2014-09-23
 
 ##Advertising
 
-If you would like to place an ad in our email newsletters or Term Course Guide, then please [download this document]({{ site.baseurl }}/assets//pdf/HCLCADVERTISINGRATESREVISED.pdf) for more information on rates.
+If you would like to place an ad in our email newsletters or Term Course Guide, then please [download this document]({{ site.baseurl }}/assets/pdf/HCLCADVERTISINGRATESREVISED.pdf) for more information on rates.
 
 ##Advertising Rates
 
