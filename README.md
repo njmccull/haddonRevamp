@@ -285,7 +285,7 @@ will appear as [Shakna Israel](http://shakna-israel.github.io)
 
 ###To add an image, you do it the same way as a link, but add a ```!``` before it:
 ```
-![Image Test]({{ site.url }}/images/artwork.jpg)
+![Image Test]({{ site.baseurl }}/images/artwork.jpg)
 ```
 
 Inside the ```[]``` brackets you put the text that loads if the image doesn't. Inside the ```()``` you copy the above link, but change the end.
@@ -293,13 +293,13 @@ Inside the ```[]``` brackets you put the text that loads if the image doesn't. I
 e.g. If you wanted to use the image default.jpg instead, you would write it like this:
 
 ```
-![Image Test]({{ site.url }}/images/default.jpg)
+![Image Test]({{ site.baseurl }}/images/default.jpg)
 ```
 
 If the image inside a folder, just add the folder:
 
 ```
-![Image Test]({{ site.url }}/images/folder/default.jpg)
+![Image Test]({{ site.baseurl }}/images/folder/default.jpg)
 ```
 
 ###That should be everything you need to know, now you can make newpages, and add them to the navigation!

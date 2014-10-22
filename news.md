@@ -6,7 +6,7 @@ tags: [news, events, courses, woady, yaloak, herald, newspaper, recent, calendar
 modified: 2014-09-23
 ---
 
-[Woady Yaloak Herald]({{ site.url }}/herald/)
+[Woady Yaloak Herald]({{ site.baseurl }}/herald/)
 
 <script type="text/javascript">
 <!--

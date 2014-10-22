@@ -6,14 +6,14 @@
 				{% if link.external %}
 					<a href="{{ link.url }}">{{ link.title }}</a>
 				{% else %}
-					<a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>
+					<a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
 				{% endif %}
 			</li>
 	        {% endfor %}
-	        {% if site.rss %}<li><a href="{{ site.url }}/feed.xml" title="Atom/RSS feed"><i class="icon-rss"></i> </a></li>{% endif %}
+	        {% if site.rss %}<li><a href="{{ site.baseurl }}/feed.xml" title="Atom/RSS feed"><i class="icon-rss"></i> </a></li>{% endif %}
 	        {% if site.gsearch %}
 					<li>
-					<a href="{{ site.url }}/search.html" ><i class="icon-search"></i> Search</a>
+					<a href="{{ site.baseurl }}/search.html" ><i class="icon-search"></i> Search</a>
 				</li>
 					{% endif %}
 	    </ul>
@@ -33,16 +33,16 @@
 {% if page.image.feature %}<header class="masthead">
 	{% if site.logo != null %}
 		<div class="wrap">
-			<a href="{{ site.url }}/" class="site-logo" rel="home" title="{{ site.title }}"><img src="{{ site.url }}/images/{{ site.logo }}" width="200" height="200" alt="{{ site.title }} logo" class="animated bounceInDown"></a>
+			<a href="{{ site.baseurl }}/" class="site-logo" rel="home" title="{{ site.title }}"><img src="{{ site.baseurl }}/images/{{ site.logo }}" width="200" height="200" alt="{{ site.title }} logo" class="animated bounceInDown"></a>
 		</div>
 	{% endif %}
 </header><!-- /.masthead -->
 {% else %}<header class="masthead">
 	<div class="wrap">
         {% if site.logo %}
-				<a href="{{ site.url }}/" class="site-logo" rel="home" title="{{ site.title }}"><img src="{{ site.url }}/images/{{ site.logo }}" width="200" height="200" alt="{{ site.title }} logo" class="animated fadeInUp"></a>
+				<a href="{{ site.baseurl }}/" class="site-logo" rel="home" title="{{ site.title }}"><img src="{{ site.baseurl }}/images/{{ site.logo }}" width="200" height="200" alt="{{ site.title }} logo" class="animated fadeInUp"></a>
 				{% else %}
-				<h1 class="site-title animated fadeIn"><a href="{{ site.url }}/">{{ site.title }}</a></h1>
+				<h1 class="site-title animated fadeIn"><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
 				{% endif %}
 		<h2 class="site-description animated fadeIn" itemprop="description">{{ site.description }}</h2>
 	</div>

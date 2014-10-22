@@ -1,10 +1,10 @@
-<script src="{{ site.assets }}/js/scripts.min.js"></script>
+<script src="{{ site.baseurl }}/assets//js/scripts.min.js"></script>
 {% if site.search %}
 <!-- Jekyll Simple Search option -->
 <script>
   $(document).ready(function() {
       $('.search-field').simpleJekyllSearch({
-          jsonFile : '{{ site.url }}/search.json',
+          jsonFile : '{{ site.baseurl }}/search.json',
           searchResults : '.search-results',
           template : '<li><article><a href="{url}">{title} <span class="entry-date"><time datetime="{date}">{shortdate}</time></span></a></article></li>',
           noResults: '<p>Nothing found.</p>'

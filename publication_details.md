@@ -6,7 +6,7 @@ tags: [about, contact, map, learn, local, employer, learner, courses, advertisin
 modified: 2014-09-13
 ---
 
-[Back to Advertising]({{ site.url }}/advertising/)
+[Back to Advertising]({{ site.baseurl }}/advertising/)
 
 ##Publication Deadlines
 

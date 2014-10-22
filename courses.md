@@ -8,7 +8,7 @@ modified: 2014-09-23
 
 ##Advertising
 
-If you would like to place an ad in our email newsletters or Term Course Guide, then please [download this document]({{ site.assets }}/pdf/HCLCADVERTISINGRATESREVISED.pdf) for more information on rates.
+If you would like to place an ad in our email newsletters or Term Course Guide, then please [download this document]({{ site.baseurl }}/assets//pdf/HCLCADVERTISINGRATESREVISED.pdf) for more information on rates.
 
 ##Advertising Rates
 
@@ -36,6 +36,6 @@ If you would like to place an ad in our email newsletters or Term Course Guide, 
 
 **Note: Advertisements Will Not Be Published Until Invoices Paid In Full**
 
-###[Click here for Deadlines and Acceptable Formats]({{ site.url }}/pub_details/)
+###[Click here for Deadlines and Acceptable Formats]({{ site.baseurl }}/pub_details/)
 
 For more information please email [media@haddonlearning.org.au](mailto:media@haddonlearning.org.au) or call Joan on [{{ site.phone }}](tel:{{ site.phone_link }})
