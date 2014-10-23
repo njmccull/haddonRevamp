@@ -1,4 +1,16 @@
 <script src="{{ site.baseurl }}/assets/js/scripts.min.js"></script>
+{% if page.slider %}
+<script>
+$( "#hide" ).click(function() {
+$( "#slippry" ).hide( "fast", function() {
+$( this ).prev().hide( "fast", arguments.callee );
+});
+$( ".slider" ).hide( "fast", function() {
+$( this ).prev().hide( "fast", arguments.callee );
+});
+});
+</script>
+{% endif %}
 {% if site.search %}
 <!-- Jekyll Simple Search option -->
 <script>

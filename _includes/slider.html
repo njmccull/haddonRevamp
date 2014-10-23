@@ -103,11 +103,3 @@
 <ul class="post-list">
   <li><button id="hide">Hide Gallery</button></li>
 </ul>
-
-<script>
-$( "#hide" ).click(function() {
-$( "#slippry" ).hide( "fast", function() {
-$( this ).prev().hide( "fast", arguments.callee );
-});
-});
-</script>
