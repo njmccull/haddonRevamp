@@ -391,30 +391,4 @@ Launching an updated version of the website follows a few steps.
 
 *This will ask for you to comment on your changes, just in case you need to roll backwards.*
 
-This will update everything, except if you made any changes inside the ```assets``` folder, then you need to do a couple things more.
-
-* Run (by double-clicking), ```assetfetch.bat```
-
-This will show you a few things, like this:
-
-```
-From git@github.com:shakna-israel/haddonAssets.git
-08c277290355e566b53b1d6ef95d1a8443d9517a      HEAD
-08c277290355e566b53b1d6ef95d1a8443d9517a      refs/heads/master
-```
-
-* Copy the big long number down. **It will be different every time you update**.
-
-Next, open _config.yml
-
-And change this line:
-
-```
-assets: //cdn.rawgit.com/shakna-israel/haddonAssets/08c277290355e566b53b1d6ef95d1a8443d9517a/
-```
-
-Basically, the big long number replace the already big long number.
-
-* Finally, run (by double-clicking), ```launch.bat```, again.
-
 ** If you get an error, please contact support.**
