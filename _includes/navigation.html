@@ -33,14 +33,22 @@
 {% if page.image.feature %}<header class="masthead">
 	{% if site.logo != null %}
 		<div class="wrap">
+			{% if page.title == "Welcome &#8211; Haddon Community Learning Centre" %}
 			<a href="{{ site.baseurl }}/" class="site-logo" rel="home" title="{{ site.title }}"><img src="{{ site.baseurl }}/images/{{ site.logo }}" width="200" height="200" alt="{{ site.title }} logo" class="animated bounceInDown"></a>
+			{% else %}
+			<a href="{{ site.baseurl }}/" class="site-logo" rel="home" title="{{ site.title }}"><img src="{{ site.baseurl }}/images/{{ site.logo }}" width="100" height="100" alt="{{ site.title }} logo" class="animated bounceInDown"></a>
+			{% endif %}
 		</div>
 	{% endif %}
 </header><!-- /.masthead -->
 {% else %}<header class="masthead">
 	<div class="wrap">
         {% if site.logo %}
-				<a href="{{ site.baseurl }}/" class="site-logo" rel="home" title="{{ site.title }}"><img src="{{ site.baseurl }}/images/{{ site.logo }}" width="200" height="200" alt="{{ site.title }} logo" class="animated fadeInUp"></a>
+				{% if page.title == "Welcome &#8211; Haddon Community Learning Centre" %}
+				<a href="{{ site.baseurl }}/" class="site-logo" rel="home" title="{{ site.title }}"><img src="{{ site.baseurl }}/images/{{ site.logo }}" width="200" height="200" alt="{{ site.title }} logo" class="animated bounceInDown"></a>
+				{% else %}
+				<a href="{{ site.baseurl }}/" class="site-logo" rel="home" title="{{ site.title }}"><img src="{{ site.baseurl }}/images/{{ site.logo }}" width="100" height="100" alt="{{ site.title }} logo" class="animated bounceInDown"></a>
+				{% endif %}
 				{% else %}
 				<h1 class="site-title animated fadeIn"><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
 				{% endif %}
