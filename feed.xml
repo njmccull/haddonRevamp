@@ -20,6 +20,7 @@ layout: none
 				<guid isPermaLink="true">{{ site.baseurl }}/{{ page.url }}</guid>
 			</item>
 			{% endif %}
+			{% endif %}
 		{% endfor %}
 		{% for posts in site.posts %}
 		{% if post.title %}
