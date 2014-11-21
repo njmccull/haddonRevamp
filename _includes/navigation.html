@@ -41,13 +41,21 @@
 		</div>
 	{% endif %}
 </header><!-- /.masthead -->
-{% else %}<header class="masthead">
+{% else %}
+<header class="masthead">
 	<div class="wrap">
         {% if site.logo %}
-				{% if page.title == "Welcome &#8211; Haddon Community Learning Centre" %}
-				<a href="{{ site.baseurl }}/" class="site-logo" rel="home" title="{{ site.title }}"><img src="{{ site.baseurl }}/images/{{ site.logo }}" width="200" height="200" alt="{{ site.title }} logo" class="animated bounceInDown"></a>
+				{% if page.title == "Welcome" %}
+				<a href="{{ site.baseurl }}/" class="site-logo" rel="home" title="{{ site.title }}">
+					<img class="animated bounceInDown float-left logo-only" src="{{ site.baseurl }}/images/{{ site.logo }}" alt="{{ site.title }} logo">
+					</a>
 				{% else %}
-				<a href="{{ site.baseurl }}/" class="site-logo" rel="home" title="{{ site.title }}"><img src="{{ site.baseurl }}/images/{{ site.logo }}" width="100" height="100" alt="{{ site.title }} logo" class="animated bounceInDown"></a>
+				<div class="site-logo-container">
+				<a href="{{ site.baseurl }}/" class="site-logo" rel="home" title="{{ site.title }}">
+					<img class="animated bounceInDown float-left" src="{{ site.baseurl }}/images/{{ site.logo }}" alt="{{ site.title }} logo">
+					<h1 class="site-title animated fadeIn entry-title float-left"><a href="{{ site.baseurl }}/">{{ page.title }}</a></h1>
+					</a>
+				</div>
 				{% endif %}
 				{% else %}
 				<h1 class="site-title animated fadeIn"><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
