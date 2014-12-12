@@ -97,4 +97,5 @@ exclude: ["lib", "config.rb", "Gemfile", "Capfile", "LICENSE", "Gemfile.lock", "
 
 prose:
 	siteurl: https://haddonlearning.org.au
-    media: /assets/img/
+    media: assets/img/
+    rooturl: ''
