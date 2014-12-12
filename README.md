@@ -19,6 +19,10 @@ It has *two* modes.
 
 The pencil on the upper left hand corner of the screen allow you to edit, using Markdown, though some buttons at the top of the screen can help you there.
 
+If you wish to make a title, write the word you would like to highlight, such as:
+
+
+
 ##Preview Mode
 
 The eye on the upper left hand corner of the screen allows you to preview the file you are working on, and see it almost as it would appear on the website.
