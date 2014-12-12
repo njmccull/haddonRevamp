@@ -21,7 +21,9 @@ The pencil on the upper left hand corner of the screen allow you to edit, using 
 
 If you wish to make a title, write the word you would like to highlight, such as:
 
-
+```
+Haddon Community Learning Centre
+```
 
 ##Preview Mode
 
