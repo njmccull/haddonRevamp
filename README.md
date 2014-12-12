@@ -67,4 +67,12 @@ For *Quotes*, *Bullet points*, and *numbered lists*, Prose expects you to click 
 
 The eye on the upper left hand corner of the screen allows you to preview the file you are working on, and see it almost as it would appear on the website.
 
+## Saving Changes
+
+To save changes within Prose, pressing *Ctrl + S* saves a backup of the file you are editing, but does not make it a final copy.
+
+For that, click the floppy disk symbol on the right hand side of the page, and enter a comment that describes the changes you have made.
+
+It should then be reflected on the website momentarily.
+
 ** If you get an error, please contact support.**
