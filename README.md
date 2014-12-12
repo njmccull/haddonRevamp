@@ -15,6 +15,12 @@ It has *two* modes.
 
 *Edit Mode* and *Preview Mode*.
 
+##Edit Mode
 
+The pencil on the upper left hand corner of the screen allow you to edit, using Markdown, though some buttons at the top of the screen can help you there.
+
+##Preview Mode
+
+The eye on the upper left hand corner of the screen allows you to preview the file you are working on, and see it almost as it would appear on the website.
 
 ** If you get an error, please contact support.**
