@@ -73,21 +73,37 @@ There are buttons for *Bold* and *Italic* text,
 
 ![Bold and Italic](https://imgur.com/iyn0nk4.jpg)
 
-as well as *Quotes*, *Bullet points*, and *numbered lists* within Prose.
+as well as *Quotes*, *Bullet points*, and *numbered lists* 
+
+![Quotes, bullet points, and numbered lists](https://imgur.com/Go9l6pt.jpg)
+
+within Prose.
+
+![Bold and Italic](https://imgur.com/iyn0nk4.jpg)
 
 For *Bold* and *Italic* text, Prose expects you to first write whatever you wish to format, then select the text, and then finally, click the button.
+
+![Quotes, bullet points, and numbered lists](https://imgur.com/Go9l6pt.jpg)
 
 For *Quotes*, *Bullet points*, and *numbered lists*, Prose expects you to click the button, and edit the text that it makes appear for you.
 
 ## Preview Mode
 
-The eye on the upper left hand corner of the screen allows you to preview the file you are working on, and see it almost as it would appear on the website.
+The eye on the upper left hand corner of the screen 
+
+![Preview Mode](https://imgur.com/EhSHh3H.jpg)
+
+allows you to preview the file you are working on, and see it almost as it would appear on the website.
 
 ## Saving Changes
 
-To save changes within Prose, pressing *Ctrl + S* saves a backup of the file you are editing, but does not make it a final copy.
+To save changes within Prose, pressing *Ctrl + S* saves a backup of the file you are editing, but **does not make it a final copy.**
 
-For that, click the floppy disk symbol on the right hand side of the page, and enter a comment that describes the changes you have made.
+For that, click the floppy disk symbol on the right hand side of the page, 
+
+![Floppy symbol](https://imgur.com/yd3KoLx.jpg)
+
+and enter a comment that describes the changes you have made.
 
 It should then be reflected on the website momentarily.
 
