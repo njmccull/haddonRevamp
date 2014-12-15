@@ -97,9 +97,10 @@ exclude: ["lib", "config.rb", "Gemfile", "Capfile", "LICENSE", "Gemfile.lock", "
 
 # Prose Settings
 prose:
-  rooturl: ''
+  rooturl: '_posts'
   siteurl: "https://haddonlearning.org.au"
   media: "assets/img"
+  relativeLinks: "https://haddonlearning.org.au/links.jsonp"
   metadata:
     _posts:
       - name: "layout"
