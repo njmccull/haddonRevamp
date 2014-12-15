@@ -1,12 +1,12 @@
 <div class="navigation-wrapper">
 	<nav role="navigation" id="site-nav" class="animated drop">
 	    <ul>
-	        {% for link in site.links %}
+	        {% for links in site..data.links %}
 			<li>
-				{% if link.external %}
-					<a href="{{ link.url }}">{{ link.title }}</a>
+				{% if links.external %}
+					<a href="{{ link.url }}" target="_blank">{{ link.title }}</a>
 				{% else %}
-					<a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
+					<a href="{{ link.url }}">{{ link.title }}</a>
 				{% endif %}
 			</li>
 	        {% endfor %}
