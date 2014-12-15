@@ -100,7 +100,6 @@ prose:
   rooturl: '_posts'
   siteurl: "https://haddonlearning.org.au"
   media: "assets/img"
-  ignore: ['_config.yml','CNAME','404.md','.gitignore','.gitattributes','Gemfile','Gemfile.lock','Gruntfile.js','LICENSE','Rakefile.rb','_config-local.yml','admin.md','feed.xml','links.jsonp','package.json','post.thor','search.html','tags.html','_includes/browser-upgrade.html','_includes/disqus_comments.html','_includes/enrolment.html','_includes/enrolmentform.html','_includes/footer.html','_includes/head.html','_includes/navigation.html','_includes/pdf.html','_includes/scripts.html','_includes/slider.html','_layouts/front.html','_layouts/jump.html','_layouts/page.html','_layouts/post.html','_plugins/sitemap_generator.rb','assets/css/main.css','assets/css/main.min.css','assets/css/vendor/slippry.css','assets/js/scripts.min.js','assets/js/_main.js']
   relativeLinks: "https://haddonlearning.org.au/links.jsonp"
   metadata:
     _posts:
