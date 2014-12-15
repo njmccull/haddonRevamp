@@ -129,6 +129,7 @@ prose:
           element: "multiselect"
           label: "Add search tags"
           placeholder: "Choose tags"
+          alterable:true
           options:
             - name: "Course"
               value: "course"
