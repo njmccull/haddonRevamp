@@ -93,7 +93,7 @@ kramdown:
     coderay_css: class
 
 prose:
-  rooturl: '_posts'
+  rooturl: ''
   siteurl: 'https://haddonlearning.org.au/'
   relativeLinks: 'https://haddonlearning.org.au/links.jsonp'
   media: 'assets/img'
