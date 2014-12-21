@@ -124,7 +124,7 @@ prose:
           label: "Title"
           element: "text"
           value: "An Awesome Headline!"
-      - name: "categories"
+      - name: "category"
         field:
           element: "multiselect"
           label: "Add categories"
