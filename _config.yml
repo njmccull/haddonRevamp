@@ -98,51 +98,6 @@ prose:
   relativeLinks: 'https://haddonlearning.org.au/links.jsonp'
   media: 'assets/img'
   metadata:
-    - name: "published"
-        field:
-          label: "Published"
-          element: "checkbox"
-          value: "true"
-    - name: "layout"
-        field:
-          element: "hidden"
-          label: "Layout"
-          value: "page"
-    - name: "title"
-        field:
-          label: "Title"
-          element: "text"
-          value: "An Awesome Headline!"
-    - name: "permalink"
-        field:
-          label: "Permalink"
-          element: "text"
-          value: "https://haddonlearning.org.au/YourTextHere"
-    - name: "tags"
-        field:
-          element: "text"
-          label: "Tags"
-          placeholder: "Enter tags, separated by spaces"
-    - name: "slider"
-        field:
-          label: "Gallery"
-          element: "checkbox"
-          value: "true"
-    - name: "slider1_image"
-        field:
-          label: "First Gallery Image"
-          element: "text"
-          value: "File name."
-    - name: "slider2_image"
-        field:
-          label: "Second Gallery Image"
-          element: "text"
-          value: "File name."
-    - name: "slider3_image"
-        field:
-          label: "Third Gallery Image"
-          element: "text"
-          value: "File name."
     _posts:
       - name: "comments"
         field:
