@@ -92,67 +92,98 @@ kramdown:
     coderay_bold_every: 10
     coderay_css: class
 
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Gemfile", "Capfile", "LICENSE", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "vendor", "/_posts/examples"]
-
-# Prose Settings
 prose:
   rooturl: '_posts'
-  siteurl: "https://haddonlearning.org.au"
-  media: "assets/img"
-  relativeLinks: "https://haddonlearning.org.au/links.jsonp"
+  siteurl: 'https://haddonlearning.org.au/'
+  relativeLinks: 'https://haddonlearning.org.au/links.jsonp'
+  media: 'assets/img'
   metadata:
-    _posts:
-      - name: "layout"
+    - name: "published"
+        field:
+          label: "Published"
+          element: "checkbox"
+          value: "true"
+    - name: "layout"
         field:
           element: "hidden"
-          value: "post"
-      - name: "title"
+          label: "Layout"
+          value: "page"
+    - name: "title"
+        field:
+          label: "Title"
+          element: "text"
+          value: "An Awesome Headline!"
+    - name: "permalink"
+        field:
+          label: "Permalink"
+          element: "text"
+          value: "https://haddonlearning.org.au/YourTextHere"
+    - name: "tags"
         field:
           element: "text"
-          label: "title"
-      - name: "category"
-          field:
-            element: "hidden"
-            value: "articles"
+          label: "Tags"
+          placeholder: "Enter tags, separated by spaces"
+    - name: "slider"
+        field:
+          label: "Gallery"
+          element: "checkbox"
+          value: "true"
+    - name: "slider1_image"
+        field:
+          label: "First Gallery Image"
+          element: "text"
+          value: "File name."
+    - name: "slider2_image"
+        field:
+          label: "Second Gallery Image"
+          element: "text"
+          value: "File name."
+    - name: "slider3_image"
+        field:
+          label: "Third Gallery Image"
+          element: "text"
+          value: "File name."
+    _posts:
       - name: "comments"
         field:
-          element: "hidden"
+          label: "Comments"
+          element: "checkbox"
           value: "true"
       - name: "share"
         field:
-          element: "hidden"
+          label: "Share Link"
+          element: "checkbox"
           value: "true"
-      - name: "tags"
+      - name: "acfe"
+        field:
+          label: "ACFE Course"
+          element: "checkbox"
+          value: "true"
+      - name: "layout"
+        field:
+          element: "hidden"
+          label: "Layout"
+          value: "post"
+      - name: "title"
+        field:
+          label: "Title"
+          element: "text"
+          value: "An Awesome Headline!"
+      - name: "categories"
         field:
           element: "multiselect"
-          label: "Add search tags"
-          placeholder: "Choose tags"
-          alterable:true
+          label: "Add categories"
+          placeholder: "Choose categories"
+          value: personal
           options:
-            - name: "Course"
-              value: "course"
-            - name: "ACFE"
-              value: "acfe"
-            - name: "certificate I"
-              value: "certificate I"
-            - name: "certificate II"
-              value: "certificate II"
-            - name: "certificate III"
-              value: "certificate III"
-            - name: "food"
-              value: "food"
-            - name: "first aid"
-              value: "first aid"
-            - name: "asthma"
-              value: "asthma"
-            - name: "cpr"
-              value: "cpr"
-            - name: "computer"
-              value: "computer"
-            - name: "tablet"
-              value: "tablet"
-            - name: "construction"
-              value: "construction"
-            - name: "hair"
-              value: "hair"
+            - name: "articles"
+              value: articles
+          alterable: true
+      - name: "tags"
+        field:
+          element: "text"
+          label: "Tags"
+          placeholder: "Enter tags, separated by spaces"
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Gemfile", "Capfile", "LICENSE", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "vendor", "/_posts/examples"]
