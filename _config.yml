@@ -93,13 +93,13 @@ kramdown:
     coderay_css: class
 
 prose:
-  ignore:
+  ignore: ["lib", "config.rb", "Gemfile", "Capfile", "LICENSE", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "vendor", "/_posts/examples", "README.md", ".gitignore", ".gitattributes", "404.md", "CNAME", "LICENSE", "favicon.ico", "favicon.png", "feed.xml", "links.jsonp", "package.json", "post.thor", "publication_details.md", "search.html", "tags.html", "_plugins", "_data", "_layouts", "_includes"]
   rooturl: ''
   siteurl: 'https://haddonlearning.org.au/'
   relativeLinks: 'https://haddonlearning.org.au/links.jsonp'
   media: 'assets/img'
   metadata:
-    _posts: ["lib", "config.rb", "Gemfile", "Capfile", "LICENSE", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "vendor", "/_posts/examples", "README.md", ".gitignore", ".gitattributes", "404.md", "CNAME", "LICENSE", "favicon.ico", "favicon.png", "feed.xml", "links.jsonp", "package.json", "post.thor", "publication_details.md", "search.html", "tags.html", "_plugins", "_data", "_layouts", "_includes"]
+    _posts:
       - name: "comments"
         field:
           label: "Comments"
