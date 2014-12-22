@@ -1,15 +1,14 @@
 <div class="navigation-wrapper">
 	<nav role="navigation" id="site-nav" class="animated drop">
 	    <ul>
-	        {% for links in site.data.links %}
-			<li>
-				{% if links.external %}
-					<a href="{{ link.url }}" target="_blank">{{ link.title }}</a>
+				{% for link in site.data.navigation %}
+				{% if link.url contains 'http' %}
+				{% assign domain = '' %}
 				{% else %}
-					<a href="{{ link.url }}">{{ link.title }}</a>
+				{% assign domain = site.url %}
 				{% endif %}
-			</li>
-	        {% endfor %}
+				<li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a></li>
+				{% endfor %}
 	        {% if site.rss %}<li><a href="{{ site.baseurl }}/feed.xml" title="Atom/RSS feed"><i class="icon-rss"></i> </a></li>{% endif %}
 	        {% if site.gsearch %}
 					<li>
