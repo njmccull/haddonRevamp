@@ -29,7 +29,7 @@ If you wish to make a title, write the word you would like to highlight, such as
 Haddon Community Learning Centre
 ```
 
-Then highlight it, using your mouse, and click the'*h2* or *h3* button, 
+Then highlight it, using your mouse, and click the'*h2* or *h3* button,
 
 ![h2](https://imgur.com/JP9eme3.jpg)
 
@@ -63,17 +63,17 @@ You can use *Preview Mode* to see how it appears.
 
 Images are handled very simply from within Prose.
 
-However, Prose is not yet correctly set up, and so it should be avoided.
+Click the image button, and you will be presented with this menu:
 
-This will be modified to show you how to correctly use images, once Prose has been enabled correctly.
+![Image Menu](https://imgur.com/kwj00CD.jpg)
 
 ### General Formatting
 
-There are buttons for *Bold* and *Italic* text, 
+There are buttons for *Bold* and *Italic* text,
 
 ![Bold and Italic](https://imgur.com/iyn0nk4.jpg)
 
-as well as *Quotes*, *Bullet points*, and *numbered lists* 
+as well as *Quotes*, *Bullet points*, and *numbered lists*
 
 ![Quotes, bullet points, and numbered lists](https://imgur.com/Go9l6pt.jpg)
 
@@ -89,17 +89,170 @@ For *Quotes*, *Bullet points*, and *numbered lists*, Prose expects you to click 
 
 ## Preview Mode
 
-The eye on the upper left hand corner of the screen 
+The eye on the upper left hand corner of the screen
 
 ![Preview Mode](https://imgur.com/EhSHh3H.jpg)
 
 allows you to preview the file you are working on, and see it almost as it would appear on the website.
 
+## Metadata
+
+Metadata is very important.
+
+Prose can simply using it, thankfully.
+
+**Courses**
+
+If you are *editing a course, inside the _posts folder,* it appears most simply.
+
+First, click the *Metadata* button:
+
+![Metadata](https://imgur.com/CU4u8bg)
+
+Then, you will be given a simple form:
+
+![Metadata Form](https://imgur.com/tUyFHm8.jpg)
+
+Tags are used for the search system. Simply place single words, seperated by commas.
+
+**Creating a Course**
+
+In Prose, open the *_posts* folder.
+
+![Posts Folder](https://imgur.com/ybAuCKf.jpg)
+
+Click *New File*.
+
+![New File](https://imgur.com/2LnsT44.jpg)
+
+Click underneath *shakna-israel/haddonRevamp* to set a title.
+
+![Set Title](https://imgur.com/sbXq2oD.jpg)
+
+Fill out the page using Markdown as described in the **Editor** section.
+
+Click the Metadata button.
+
+![Metadata](https://imgur.com/CU4u8bg)
+
+Ensure that the right tickboxes are checked.
+
+![Metadata Form](https://imgur.com/tUyFHm8.jpg)
+
+*If it is not an ACFE course, ensure that button is not checked!*
+
+Ensure that the category section has *articles* listed.
+
+*Click under* Add Categories *and it should appear. Simply click it.*
+
+![Add Category](https://imgur.com/kPrdnLK.jpg)
+
+Add appropriate search words in the tags section, seperating **not* with *spaces*, but with **commas**.
+
+![Tags](https://imgur.com/oli2GET.jpg)
+
+**Pages**
+
+If you are *editing a standard page, located in no folder*, metadata does not appear simply.
+
+![Raw Metadata](https://imgur.com/K74i06s.jpg)
+
+Usually, the data is very straight forward, and easy to manipulate.
+
+However, **if you are wishing to create a new page**, it would likely be best to copy an existing page and modify it.
+
+For more information, the raw metadata breaks down like so:
+
+```
+layout: page
+```
+
+This specifies the template for the page to use. There are two templates. *post* and *page*.
+
+You would want *page*.
+
+```
+permalink: /about/
+```
+
+The permalink refers to the URL of the webpage.
+
+In the example shown, the webpage would be located at https://haddonlearning.org.au/about/
+
+```
+tags:
+  - about
+  - contact
+  - map
+```
+
+Tags are defined by a list that aid in the search function of the website, and ensuring search engines such as Google can find all your pages.
+
+```
+modified:{}
+```
+
+Used by the RSS feed, and the search function, this lets both know if you have changed a page. It is currently displaying no information.
+
+If you modify a page, you would change it like so:
+
+```
+modified:12-22-2014
+```
+
+Using a MM-DD-YYYY format.
+
+```
+slider:true
+```
+
+This enables the gallery on a webpage.
+
+However, once enabled, you must set at least one image. (See below).
+
+```
+slide1_image: DSCF0069.jpg
+
+slide2_image: DSCF2378.jpg
+
+slide3_image: SB_18790242.jpg
+```
+
+This enables three images for the gallery, the optimum number.
+
+The images are the file names of images located inside the img folder, within the assets folder.
+
+[Click here to see files](https://github.com/shakna-israel/haddonRevamp/tree/gh-pages/assets/img).
+
+## Publishing
+
+To ensure a file is *published* and available to everyone on the web, we click the *Publish* button:
+
+![Publish](https://imgur.com/q3sEpdo.jpg)
+
+Once published, and available, the button will appear like this:
+
+![Unpublish](https://imgur.com/q5VyzYa.jpg)
+
+Clicking *Unpublish* may make the file unavailable to the web.
+
+## Drafts
+
+You can create draft versions of files.
+
+To do so, first click the *Settings* cog:
+
+![Settings](https://imgur.com/qLE33aj.jpg)
+
+And the click *Create Draft*:
+
+![Create Draft](https://imgur.com/QsuSKh1.jpg)
+
 ## Saving Changes
 
 To save changes within Prose, pressing *Ctrl + S* saves a backup of the file you are editing, but **does not make it a final copy.**
 
-For that, click the floppy disk symbol on the right hand side of the page, 
+For that, click the floppy disk symbol on the right hand side of the page,
 
 ![Floppy symbol](https://imgur.com/yd3KoLx.jpg)
 
