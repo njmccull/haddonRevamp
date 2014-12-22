@@ -107,7 +107,7 @@ If you are *editing a course, inside the _posts folder,* it appears most simply.
 
 First, click the *Metadata* button:
 
-![Metadata](https://imgur.com/CU4u8bg)
+![Metadata](https://imgur.com/CU4u8bg.jpg)
 
 Then, you will be given a simple form:
 
@@ -133,7 +133,7 @@ Fill out the page using Markdown as described in the **Editor** section.
 
 Click the Metadata button.
 
-![Metadata](https://imgur.com/CU4u8bg)
+![Metadata](https://imgur.com/CU4u8bg.jpg)
 
 Ensure that the right tickboxes are checked.
 
