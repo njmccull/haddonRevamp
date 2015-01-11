@@ -140,6 +140,49 @@ prose:
           element: "text"
           label: "Tags"
           placeholder: "Enter tags, separated by spaces"
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          label: "Layout"
+          value: "page"
+      - name: "permalink"
+        field:
+          element: "text"
+          label: "Page Link"
+          placeholder: "Link to page, e.g. /about/"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          placeholder: "Page Title"
+      - name: "tags"
+        field:
+          element: "text"
+          label: "Tags"
+          placeholder: "Enter tags, separated by spaces"
+      - name: "published"
+        field:
+          element: "hidden"
+          label: "Published"
+          value: "true"
+      - name: "slider"
+        field:
+          label: "Image Gallery"
+          element: "checkbox"
+          value: "true"
+      - name: "slide1_image"
+        field:
+          label: "First Image Gallery Image"
+          placeholder: "DSCF0069.jpg"
+      - name: "slide2_image"
+        field:
+          label: "First Image Gallery Image"
+          placeholder: "DSCF0069.jpg"
+      - name: "slide3_image"
+        field:
+          label: "First Image Gallery Image"
+          placeholder: "DSCF0069.jpg"
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Gemfile", "Capfile", "LICENSE", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "vendor", "/_posts/examples"]
