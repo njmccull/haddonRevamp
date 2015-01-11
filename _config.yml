@@ -184,5 +184,5 @@ prose:
           label: "First Image Gallery Image"
           placeholder: "DSCF0069.jpg"
 
-include: [".htaccess"]
+include: [".htaccess","_pages"]
 exclude: ["lib", "config.rb", "Gemfile", "Capfile", "LICENSE", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "vendor", "/_posts/examples"]
