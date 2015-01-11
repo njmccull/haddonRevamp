@@ -140,7 +140,7 @@ prose:
           element: "text"
           label: "Tags"
           placeholder: "Enter tags, separated by spaces"
-    _posts:
+    _pages:
       - name: "layout"
         field:
           element: "hidden"
