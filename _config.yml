@@ -178,12 +178,12 @@ prose:
           element: "text"
       - name: "slide2_image"
         field:
-          label: "First Image Gallery Image"
+          label: "Second Image Gallery Image"
           placeholder: "DSCF0069.jpg"
           element: "text"
       - name: "slide3_image"
         field:
-          label: "First Image Gallery Image"
+          label: "Third Image Gallery Image"
           placeholder: "DSCF0069.jpg"
           element: "text"
 
