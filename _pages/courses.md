@@ -1,9 +1,23 @@
 ---
+published: true
 layout: page
 permalink: /advertising/
-title: Courses & Advertising
-tags: [courses, learning, learn, advertise, business, small, teach, enrolment, advertising, course, guide]
-modified: 2014-09-23
+title: Advertising
+tags: 
+  - courses
+  - learning
+  - learn
+  - advertise
+  - business
+  - small
+  - teach
+  - enrolment
+  - advertising
+  - course
+  - guide
+  - "courses,learning,learn,advertise,business,small,teach,enrolment,advertising,course,guide"
+modified: {}
+slider: true
 ---
 
 ##Advertising
